@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">The Romantic French Learner's Planner advertisement</title>
+  <desc id="desc">A warm paper-toned advertisement for a gentle French study planner, featuring a preview of the planner's first page.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eadcca"/>
+      <stop offset="0.52" stop-color="#f5ede1"/>
+      <stop offset="1" stop-color="#dfcdb8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="1" stop-color="#eee2d1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#725b49" flood-opacity="0.22"/>
+    </filter>
+    <filter id="smallShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#725b49" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="grain" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M2 4h1M14 18h1M22 9h1M8 24h1" stroke="#947b65" stroke-opacity=".12" stroke-width="1"/>
+      <path d="M5 13h2M17 3h2M20 22h2" stroke="#fff" stroke-opacity=".18" stroke-width="1"/>
+    </pattern>
+    <clipPath id="previewClip">
+      <rect x="90" y="715" width="1020" height="717" rx="3"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#paper)"/>
+  <rect width="1200" height="1500" fill="url(#grain)" opacity=".65"/>
+
+  <path d="M-50 355C190 265 255 450 470 355S850 165 1250 295" fill="none" stroke="#ad6d5b" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M-80 395C155 310 300 490 490 390S900 220 1260 330" fill="none" stroke="#869786" stroke-opacity=".13" stroke-width="2"/>
+
+  <text x="176" y="107" fill="#403a35" font-family="Georgia, serif" font-size="25">Le français, doucement</text>
+  <text x="178" y="133" fill="#8c7a69" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">SIMA DOVE STUDIO · FRENCH STUDY TOOLS</text>
+
+  <text x="90" y="270" fill="#403a35" font-family="Georgia, serif" font-size="76" font-weight="700">Your gentle way</text>
+  <text x="90" y="350" fill="#ad6d5b" font-family="Georgia, serif" font-size="79" font-style="italic">into French.</text>
+  <text x="94" y="412" fill="#776b5f" font-family="Arial, sans-serif" font-size="20" letter-spacing=".2">
+    <tspan x="94" dy="0">A beautiful digital planner for small steps,</tspan>
+    <tspan x="94" dy="31">steady habits, and everyday confidence.</tspan>
+  </text>
+
+  <g transform="translate(94 504)">
+    <circle cx="8" cy="8" r="5" fill="#ad6d5b"/>
+    <text x="27" y="15" fill="#403a35" font-family="Arial, sans-serif" font-size="16">16 undated pages to make your own</text>
+    <circle cx="8" cy="46" r="5" fill="#869786"/>
+    <text x="27" y="53" fill="#403a35" font-family="Arial, sans-serif" font-size="16">Vocabulary, habits, reflections &amp; flashcards</text>
+    <circle cx="8" cy="84" r="5" fill="#b99559"/>
+    <text x="27" y="91" fill="#403a35" font-family="Arial, sans-serif" font-size="16">Study without pressure — just return today</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="695" width="1060" height="757" rx="5" fill="url(#card)" stroke="#ad6d5b" stroke-opacity=".25" stroke-width="2"/>
+    <rect x="90" y="715" width="1020" height="717" rx="3" fill="#f6f0e5"/>
+    <image href="first-page-source.jpg" x="90" y="715" width="1020" height="717" preserveAspectRatio="none" clip-path="url(#previewClip)"/>
+  </g>
+
+  <g filter="url(#smallShadow)">
+    <rect x="804" y="1363" width="302" height="72" rx="36" fill="#ad6d5b"/>
+    <text x="955" y="1408" text-anchor="middle" fill="#fff9f0" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">OPEN THE PLANNER</text>
+  </g>
+
+  <text x="90" y="1458" fill="#9a8674" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">LE FRANÇAIS, DOUCEMENT · THE ROMANTIC FRENCH LEARNER'S PLANNER</text>
+</svg>
